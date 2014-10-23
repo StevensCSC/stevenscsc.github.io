@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 #page-wrapper {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     color: white;
@@ -8,18 +13,24 @@ ul {
     list-style-type: none;
 }
 
-nav > ul {
+header > nav {
     display: table;
-    padding-right: 2%;
-    background-color: lightgray;
-    height: 3em;
-    width: 25em;
-    margin: 0 auto;
-    border-radius: 1em;
+    width: 100%;
 }
 
-img {
-    padding-top: 2em;   
+header > nav > ul {
+    display: table-row;
+    list-style: none;
+    padding-right: 2%;
+    background-color: lightgray;
+
+    margin: 0 auto;
+}
+
+header > nav > ul > li {
+    display: table-cell;
+    padding: 1em 0;
+    width: 33.3%;
 }
 
 a:link, a:visited, a:active {
@@ -29,11 +40,6 @@ a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: underline; 
-}
-
-nav > ul > li {
-    display: table-cell;
-    padding: 1em;
 }
 
 #aboutus {
