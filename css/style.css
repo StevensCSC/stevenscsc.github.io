@@ -1,11 +1,50 @@
 #page-wrapper {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: white;
     text-align: center;
 }
 
 ul {
+    display: table;
     list-style-type: none;
+    padding-right: 2%;
+    background-color: lightgray;
+    height: 3em;
+    width: 25em;
+    margin: 0 auto;
+    border-radius: 1em;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
 }
 
 li {
-    display: inline;
+    display: table-cell;
+    padding: 1em;
+}
+
+#aboutus {
+    height: 20em;
+    background-color: #00A0B1;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 1em;
+}
+
+#projects {
+    height: 20em;
+    background-color: #DC572E;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 1em;
+}
+
+h2 {
+    font-size: 4.5em;   
 }
