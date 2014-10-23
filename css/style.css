@@ -32,6 +32,11 @@ header > nav > ul > li {
     vertical-align: middle;
 }
 
+.superscript {
+    font-size: 0.9rem;
+    vertical-align: top;
+}
+
 a:link, a:visited, a:active {
     color: white;
     text-decoration: none;
