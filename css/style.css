@@ -5,14 +5,21 @@
 }
 
 ul {
-    display: table;
     list-style-type: none;
+}
+
+nav > ul {
+    display: table;
     padding-right: 2%;
     background-color: lightgray;
     height: 3em;
     width: 25em;
     margin: 0 auto;
     border-radius: 1em;
+}
+
+img {
+    padding-top: 2em;   
 }
 
 a:link, a:visited, a:active {
@@ -24,17 +31,22 @@ a:hover {
     text-decoration: underline; 
 }
 
-li {
+nav > ul > li {
     display: table-cell;
     padding: 1em;
 }
 
 #aboutus {
-    height: 20em;
+    height: 25em;
     background-color: #00A0B1;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    border-radius: 1em;
+}
+
+#whoarewe, #whatwedo, #somethingelse {
+    text-align: center;
+    width: 33%;
+    float: left;
 }
 
 #projects {
@@ -42,9 +54,12 @@ li {
     background-color: #DC572E;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    border-radius: 1em;
 }
 
 h2 {
     font-size: 4.5em;   
+}
+
+h3 {
+    font-size: 2.5em;
 }
