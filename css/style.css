@@ -14,23 +14,22 @@ ul {
 }
 
 header > nav {
-    display: table;
+    display: block;
     width: 100%;
+    background-color: lightgray;
 }
 
 header > nav > ul {
     display: table-row;
     list-style: none;
     padding-right: 2%;
-    background-color: lightgray;
-
     margin: 0 auto;
 }
 
 header > nav > ul > li {
     display: table-cell;
-    padding: 1em 0;
-    width: 33.3%;
+    padding: 10px 20px;
+    vertical-align: middle;
 }
 
 a:link, a:visited, a:active {
@@ -42,7 +41,7 @@ a:hover {
     text-decoration: underline; 
 }
 
-#aboutus {
+#about {
     height: 25em;
     background-color: #00A0B1;
     padding-left: 0.5em;
@@ -57,7 +56,8 @@ a:hover {
 
 #projects {
     height: 20em;
-    background-color: #DC572E;
+    background-color: #FFF;/*#DC572E;*/
+    color: #00A0B1;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
@@ -68,4 +68,8 @@ h2 {
 
 h3 {
     font-size: 2.5em;
+}
+
+footer {
+    color: black;   
 }
