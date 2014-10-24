@@ -46,11 +46,21 @@ a:hover {
     text-decoration: underline; 
 }
 
-#about {
+#page-wrapper > section {
     height: 25em;
     background-color: #00A0B1;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+#page-wrapper > section:nth-of-type(even) {
+    background-color: #FFF;
+    color: #00A0B1;
+}
+
+/* Sections */
+#about {
+    
 }
 
 #whoarewe, #whatwedo, #somethingelse {
@@ -60,11 +70,7 @@ a:hover {
 }
 
 #projects {
-    height: 20em;
-    background-color: #FFF;/*#DC572E;*/
-    color: #00A0B1;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    
 }
 
 h2 {
