@@ -3,10 +3,11 @@
 	padding: 0;
 }
 
-#page-wrapper {
+/* This selector NEEDS to be html, not body or * */
+html {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     color: white;
-    text-align: center;
+    text-align: center;   
 }
 
 ul {
@@ -46,14 +47,14 @@ a:hover {
     text-decoration: underline; 
 }
 
-#page-wrapper > section {
+section {
     height: 25em;
     background-color: #00A0B1;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
 
-#page-wrapper > section:nth-of-type(even) {
+section:nth-of-type(even) {
     background-color: #FFF;
     color: #00A0B1;
 }
