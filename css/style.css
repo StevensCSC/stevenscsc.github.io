@@ -10,6 +10,10 @@ html {
     text-align: center;   
 }
 
+.club {
+    display: none;
+}
+
 ul {
     list-style-type: none;
 }
@@ -84,4 +88,44 @@ h3 {
 
 footer {
     color: black;   
+}
+
+@media (max-width: 700px) {
+    #whoarewe, #whatwedo, #somethingelse {
+        width: 100%;
+        padding-top: 1em;
+    }
+    
+    section {
+        height: 35em;
+    }
+}
+
+@media (max-width: 525px) {
+    img {
+        display: none;
+    }
+    
+    .club {
+        display: block;
+        text-align: center;
+        color: #00A0B1;
+        font-size: 3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+   header > nav > ul {
+        display: block;
+        list-style: none;
+        padding-right: 2%;
+        margin: 0 auto;
+   }
+
+    header > nav > ul > li {
+        display: block;
+        padding: 10px 20px;
+        width: 100%;
+        vertical-align: middle;
+    }
 }
